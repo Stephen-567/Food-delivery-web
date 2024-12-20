@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food Menu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff5e6; /* Soft yellow */
+            color: #4a2c0a;
+        }
+
+        header {
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .menu {
+            padding: 2rem;
+            background-color: #ffcc80; /* Warm orange */
+            text-align: center;
+        }
+
+        .menu h1 {
+            margin-bottom: 1rem;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .menu-item {
+            background-color: #ffe6cc; /* Soft cream */
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            background-color: #fff; /* Placeholder for images */
+        }
+
+        .menu-item h3 {
+            margin: 0.5rem 0;
+        }
+
+        .menu-item p {
+            font-weight: bold;
+            color: #e65c3b; /* Slightly darker red */
+        }
+
+        footer {
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fast Food Menu</h1>
+        <a href="index.html">&larr; Back to Home</a>
+    </header>
+
+    <section class="menu">
+        <h1>Our Delicious Offerings</h1>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="images/pizza.avif" alt="Delicious Pizza">
+                <h3><a href="webpage2.html">Pizza</a></h3>
+            </div>
+            <div class="menu-item">
+                <img src="images/burger-tomateoes-lettuce-pickles-on-600nw-2309539129.webp" alt="Burger Placeholder">
+                <h3><a href="webpage6.html">Burger</a></h3>
+            </div>
+            <div class="menu-item">
+                <img src="images/frozen-french-fries-in-air-fryer.jpg" alt="Fries Placeholder">
+                <h3><a href="webpage7.html">Fries</a></h3>
+            </div>
+            <div class="menu-item">
+                <img src="images/83740315.jpeg" alt="Sandwich Placeholder">
+                <h3><a href="webpage8.html">Sandwich</a></h3>
+            </div>
+            <div class="menu-item">
+                <img src="images/Screenshot 2024-12-17 013708.png" alt="Chicken Wings Placeholder">
+                <h3><a href="webpage9.html">Chicken Wings</a></h3>
+                </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FoodExpress. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

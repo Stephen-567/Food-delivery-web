@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff5e6; /* Soft yellow */
+            color: #4a2c0a;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            padding: 1rem 2rem;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        .confirmation-box {
+            background-color: #ffcc80; /* Warm orange */
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+        }
+
+        .confirmation-box h1 {
+            margin-bottom: 1rem;
+        }
+
+        .confirmation-box p {
+            margin: 1rem 0;
+        }
+
+        .confirmation-box a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .confirmation-box a:hover {
+            background-color: #e65c3b; /* Slightly darker red */
+        }
+
+        footer {
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            padding: 1rem;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Order Confirmation</h1>
+    </header>
+
+    <div class="confirmation-box">
+        <h1>Thank You!</h1>
+        <p>Your order has been successfully placed.</p>
+        <p>We will prepare your food and have it delivered to you shortly.</p>
+        <a href="webpage1.html">Back to Menu</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 FoodExpress. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

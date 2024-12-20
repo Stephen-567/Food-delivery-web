@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beverages</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff5e6; /* Soft yellow */
+            color: #4a2c0a;
+        }
+
+        header {
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .beverages {
+            padding: 2rem;
+            background-color: #ffcc80; /* Warm orange */
+            text-align: center;
+        }
+
+        .beverages h1 {
+            margin-bottom: 1rem;
+        }
+
+        .beverage-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .beverage-item {
+            background-color: #ffe6cc; /* Soft cream */
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .beverage-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            background-color: #fff; /* Placeholder for images */
+        }
+
+        .beverage-item h3 {
+            margin: 0.5rem 0;
+        }
+
+        .beverage-item p {
+            font-weight: bold;
+            color: #e65c3b; /* Slightly darker red */
+        }
+
+        footer {
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Beverages</h1>
+        <a href="index.html">&larr; Back to Home</a>
+    </header>
+
+    <section class="beverages">
+        <h1>Choose Your Beverage</h1>
+        <div class="beverage-list">
+            <div class="beverage-item">
+                <img src="images/Screenshot 2024-12-19 142120.png" alt="Soft Drink 1">
+                <h3><a href="webpage5.html">Coke</a></h3>
+                <p>₵9.99</p>
+            </div>
+            <div class="beverage-item">
+                <img src="images/Screenshot 2024-12-19 142244.png" alt="Soft Drink 2">
+                <h3><a href="webpage5.html">Spirte</a></h3>
+                <p>₵9.49</p>
+            </div>
+            <div class="beverage-item">
+                <img src="images/Screenshot 2024-12-19 142311.png" alt="Soft Drink 3">
+                <h3><a href="webpage5.html">Fanta</a></h3>
+                <p>₵9.99</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FoodStuff Delivery. All Rights Reserved.</p>
+        <a href="index.html">Back to Home</a>
+    </footer>
+</body>
+</html>

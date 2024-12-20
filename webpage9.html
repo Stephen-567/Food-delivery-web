@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken and Prices</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff5e6; /* Soft yellow */
+            color: #4a2c0a;
+        }
+
+        header {
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .burger-sizes {
+            padding: 2rem;
+            background-color: #ffcc80; /* Warm orange */
+            text-align: center;
+        }
+
+        .burger-sizes h1 {
+            margin-bottom: 1rem;
+        }
+
+        .size-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .size-item {
+            background-color: #ffe6cc; /* Soft cream */
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .size-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            background-color: #fff; /* Placeholder for images */
+        }
+
+        .size-item h3 {
+            margin: 0.5rem 0;
+        }
+
+        .size-item p {
+            font-weight: bold;
+            color: #e65c3b; /* Slightly darker red */
+        }
+
+        footer {
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chicken wings flavour & Prices</h1>
+        <a href="webpage1.html">&larr; Back to Menu</a>
+    </header>
+
+    <section class="burger-sizes">
+        <h1>Choose Your Chicen Wings Flavour</h1>
+        <div class="size-options">
+            <div class="size-item">
+                <img src="images/Screenshot 2024-12-18 210944.png" alt="Buffalo Wings">
+                <h3><a href="webpage5.html">Buffalo Wings</a></h3>
+                <p>₵30.99</p>
+            </div>
+            <div class="size-item">
+                <img src="images/Screenshot 2024-12-18 211140.png" alt="Lemon Pepper Wings">
+                <h3><a href="webpage5.html">Lemon Pepper Wings</a></h3>
+                <p>₵49.99</p>
+            </div>
+            <div class="size-item">
+                <img src="images/Screenshot 2024-12-18 212509.png" alt="Honey BBQ">
+                <h3><a href="webpage5.html">Honey BBQ</a></h3>
+                <p>₵80.99</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FoodExpress. All Rights Reserved.</p>
+        <a href="webpage1.html">Back to Menu</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Food Options</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff5e6; /* Soft yellow */
+            color: #4a2c0a;
+        }
+
+        header {
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .healthy-food {
+            padding: 2rem;
+            background-color: #ffcc80; /* Warm orange */
+            text-align: center;
+        }
+
+        .healthy-food h1 {
+            margin-bottom: 1rem;
+        }
+
+        .food-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .food-item {
+            background-color: #ffe6cc; /* Soft cream */
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .food-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            background-color: #fff; /* Placeholder for images */
+        }
+
+        .food-item h3 {
+            margin: 0.5rem 0;
+        }
+
+        .food-item p {
+            font-weight: bold;
+            color: #e65c3b; /* Slightly darker red */
+        }
+
+        footer {
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Healthy Food Options</h1>
+        <a href="index.html">&larr; Back to Home</a>
+    </header>
+
+    <section class="healthy-food">
+        <h1>Select Your Healthy Option</h1>
+        <div class="food-options">
+            <div class="food-item">
+                <img src="images/Screenshot 2024-12-19 144643.png" alt="Salad">
+                <h3><a href="webpage3.html">Fresh Salad</a></h3>
+                <p>₵49.99</p>
+            </div>
+            <div class="food-item">
+                <img src="images/Screenshot 2024-12-19 144906.png" alt="Grilled Chicken">
+                <h3><a href="webpage3.html">Grilled Chicken</a></h3>
+                <p>₵89.99</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FoodStuff Delivery. All Rights Reserved.</p>
+        <a href="index.html">Back to Home</a>
+    </footer>
+</body>
+</html>

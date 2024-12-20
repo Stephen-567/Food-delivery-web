@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Service</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff5e6; /* Soft yellow */
+        }
+
+        header {
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            padding: 1rem 2rem;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav .nav-links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 1rem;
+        }
+
+        nav .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 5rem 1rem;
+            background-color: #ffcc80; /* Warm orange */
+            color: #4a2c0a;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+
+        .about {
+            background-color: #fff0e0; /* Light yellow-orange */
+            padding: 2rem;
+            color: #4a2c0a;
+        }
+
+        .services {
+            background-color: #ffd699; /* Light orange */
+            padding: 2rem;
+            color: #4a2c0a;
+        }
+
+        .service-grid {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            background-color: #ffe6cc; /* Soft cream */
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33.333% - 1rem);
+            min-width: 200px;
+        }
+
+        .contact {
+            background-color: #ffe6cc; /* Soft cream */
+            padding: 2rem;
+            color: #4a2c0a;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            padding: 1rem;
+        }
+
+        button, input[type="submit"] {
+            background-color: #ff704d; /* Warm red */
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover, input[type="submit"]:hover {
+            background-color: #e65c3b; /* Slightly darker red */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">FoodExpress</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="webpage1.html">Fast Food</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to FoodExpress</h1>
+            <p>Delivering fresh and delicious meals right to your doorstep!</p>
+            <a href="webpage1.html".html" class="btn">Explore Fast Food</a>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>FoodExpress is committed to providing top-quality food delivery services, ensuring you enjoy your favorite meals in the comfort of your home.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service">
+                    <h3><a href="webpage1.html"> Fast Food Delivery</a></h3>
+                    <p>Quick and hot delivery of fast food items.</p>
+                </div>
+                <div class="service">
+                    <h3><a href=healthlyfood.html>Healthy Meals</a></h3>
+                    <p>Fresh and nutritious meal options for a healthy lifestyle.</p>
+                </div>
+                <div class="service">
+                    <h3><a href=drink11.html>Beverages</a></h3>
+                    <p>Refreshing drinks to complement your meals.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+                <section id="contact" class="contact">
+                    <h2>Contact Us</h2>
+                    <form id="contact-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+        
+                        <button type="submit"><a href=ThankYou.html>Send</a></button>
+                    </form>
+                </section>
+            </main>
+        
+            <footer>
+                <p>&copy; 2024 FoodExpress. All Rights Reserved.</p>
+            </footer>
+        
+        </body>
+        </html>
